@@ -123,6 +123,16 @@
             // AngleNumericUpDown
             // 
             this.AngleNumericUpDown.Location = new System.Drawing.Point(148, 56);
+            this.AngleNumericUpDown.Maximum = new decimal(new int[] {
+            360,
+            0,
+            0,
+            0});
+            this.AngleNumericUpDown.Minimum = new decimal(new int[] {
+            360,
+            0,
+            0,
+            -2147483648});
             this.AngleNumericUpDown.Name = "AngleNumericUpDown";
             this.AngleNumericUpDown.Size = new System.Drawing.Size(63, 20);
             this.AngleNumericUpDown.TabIndex = 4;
@@ -130,6 +140,11 @@
             // HorizStretchNumericUpDown
             // 
             this.HorizStretchNumericUpDown.Location = new System.Drawing.Point(147, 82);
+            this.HorizStretchNumericUpDown.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.HorizStretchNumericUpDown.Name = "HorizStretchNumericUpDown";
             this.HorizStretchNumericUpDown.Size = new System.Drawing.Size(63, 20);
             this.HorizStretchNumericUpDown.TabIndex = 4;
@@ -137,6 +152,11 @@
             // VertStretchNumericUpDown
             // 
             this.VertStretchNumericUpDown.Location = new System.Drawing.Point(147, 108);
+            this.VertStretchNumericUpDown.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.VertStretchNumericUpDown.Name = "VertStretchNumericUpDown";
             this.VertStretchNumericUpDown.Size = new System.Drawing.Size(63, 20);
             this.VertStretchNumericUpDown.TabIndex = 4;
